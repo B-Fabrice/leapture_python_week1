@@ -1,7 +1,7 @@
 from PIL import Image
 import os, sys
 
-img = Image.open('kjsdnkjs.png')
+img = Image.open('static/kjsdnkjs.png')
 print(img.format)
 print(img.size)
 print(img.height)
@@ -12,7 +12,7 @@ img.show()
 #Convert img to JPEG
 
 jpgimg = img.convert('RGB')
-jpgimg.save('jpg_converted.jpg')
+jpgimg.save('static/jpg_converted.jpg')
 jpgimg.show()
 
 
@@ -20,7 +20,7 @@ jpgimg.show()
 
 conimg = img.convert('RGB')
 conimg.thumbnail((70, 70))
-conimg.save('thumbnail.jpg')
+conimg.save('static/thumbnail.jpg')
 conimg.show()
 
 #resize img
