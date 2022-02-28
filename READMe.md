@@ -1,4 +1,16 @@
-#python modules with explanation
-in this repo, you will find module explantion in index.py
-and addition file is founded in root directory
-many codes are commented, remove the from comment before run
+# python modules
+
+This documentation will help you be interactive with some python module
+
+## install package used
+
+In the project directory, you can run:
+
+### `pip install -r requirements.txt`
+
+### run files
+
+in order to run file, you are required to go into file root dir in your
+terminal or command prompt and type:
+
+### `python <file_name.py>`
